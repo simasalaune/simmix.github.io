@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for simmix	</title>
-	<atom:link href="https://simasalaune.github.io/simmix.github.io/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://simasalaune.github.io/simmix.github.io</link>
+	<atom:link href="https://simasalaune.github.io/simmix/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://simasalaune.github.io/simmix</link>
 	<description>Simmix Portfolio</description>
 	<lastBuildDate>Sat, 04 Nov 2023 13:49:58 +0000</lastBuildDate>
 	<sy:updatePeriod>
