@@ -12,12 +12,20 @@
 	<atom:link href="https://simasalaune.github.io/simmix/feed/" rel="self" type="application/rss+xml" />
 	<link>https://simasalaune.github.io/simmix</link>
 	<description>Simmix Portfolio</description>
-	<lastBuildDate>Sat, 04 Nov 2023 13:49:58 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 08 Nov 2023 21:25:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.3.2</generator>
+
+<image>
+	<url>https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/cropped-icon_512-32x32.png</url>
+	<title>simmix</title>
+	<link>https://simasalaune.github.io/simmix</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 </channel>
 </rss>
