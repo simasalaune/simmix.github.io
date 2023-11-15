@@ -49,10 +49,10 @@
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="alternate" type="application/rss+xml" title="simmix &raquo; Feed" href="https://simasalaune.github.io/simmix/feed/">
 <link rel="alternate" type="application/rss+xml" title="simmix &raquo; Comments Feed" href="https://simasalaune.github.io/simmix/comments/feed/">
-		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.20.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.21.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
 							<script src="//www.googletagmanager.com/gtag/js?id=G-Y252S57WYE" data-cfasync="false" data-wpfc-render="false" async></script>
 			<script data-cfasync="false" data-wpfc-render="false">
-				var mi_version = '8.20.1';
+				var mi_version = '8.21.0';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -218,6 +218,7 @@
 									'page': 'page_path',
 									'location': 'page_location',
 									'title': 'page_title',
+									'referrer' : 'page_referrer',
 								};
 								for (arg in args) {
 																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
@@ -286,10 +287,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <link rel="stylesheet" id="elementor-post-1659-css" href="https://simasalaune.github.io/simmix/wp-content/uploads/elementor/css/post-1659.css?ver=1697710921" media="all">
 <link rel="stylesheet" id="font-awesome-5-all-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.16.6" media="all">
 <link rel="stylesheet" id="font-awesome-4-shim-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.16.6" media="all">
-<link rel="stylesheet" id="elementor-post-2397-css" href="https://simasalaune.github.io/simmix/wp-content/uploads/elementor/css/post-2397.css?ver=1698069371" media="all">
+<link rel="stylesheet" id="elementor-post-2397-css" href="https://simasalaune.github.io/simmix/wp-content/uploads/elementor/css/post-2397.css?ver=1700054695" media="all">
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CJura%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1" media="all">
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
-<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <!--[if IE]>
 <script src="http://localhost/wordpress/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.3.1" id="astra-flexibility-js"></script>
@@ -297,7 +298,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 flexibility(document.documentElement);
 </script>
 <![endif]-->
-<script src="https://simasalaune.github.io/simmix/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.20.1" id="monsterinsights-frontend-script-js"></script>
+<script src="https://simasalaune.github.io/simmix/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.21.0" id="monsterinsights-frontend-script-js"></script>
 <script data-cfasync="false" data-wpfc-render="false" id="monsterinsights-frontend-script-js-extra">var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/simasalaune.github.io\/simmix","hash_tracking":"false","v4_id":"G-Y252S57WYE"};</script>
 <script src="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.16.6" id="font-awesome-4-shim-js"></script>
 <link rel="https://api.w.org/" href="https://simasalaune.github.io/simmix/wp-json/">
@@ -524,7 +525,15 @@ flexibility(document.documentElement);
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.16.0 - 17-10-2023 */
 .elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
-<h1 class="elementor-heading-title elementor-size-default">necromancer tomb</h1>		</div>
+<h1 class="elementor-heading-title elementor-size-default">necromancer</h1>		</div>
+				</div>
+		<div class="elementor-element elementor-element-737933a e-flex e-con-boxed e-con e-parent" data-id="737933a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-190ab90 elementor-widget elementor-widget-heading" data-id="190ab90" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">TOMB</h2>		</div>
+				</div>
+					</div>
 				</div>
 				<div class="elementor-element elementor-element-0122888 elementor-widget elementor-widget-heading" data-id="0122888" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -534,14 +543,31 @@ flexibility(document.documentElement);
 		</div>
 							</div>
 		</section>
-		<div class="elementor-element elementor-element-f687a18 e-flex e-con-boxed e-con e-parent" data-id="f687a18" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-ae97880 e-flex e-con-boxed e-con e-parent" data-id="ae97880" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
 					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-c845aa1 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c845aa1" data-element_type="widget" data-widget_type="divider.default">
+		<div class="elementor-element elementor-element-95970dd e-flex e-con-boxed e-con e-child" data-id="95970dd" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-33c8ce1 elementor-widget elementor-widget-image" data-id="33c8ce1" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.16.0 - 17-10-2023 */
-.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-61e1953 e-flex e-con-boxed e-con e-parent" data-id="61e1953" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3109663 elementor-align-center elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="3109663" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-md" href="https://crystal-peach.itch.io/necromancer-tomb" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-itch-io"></i>			</span>
+						<span class="elementor-button-text">PLAY Now</span>
+		</span>
+					</a>
 		</div>
 				</div>
 				</div>
@@ -553,26 +579,12 @@ flexibility(document.documentElement);
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-6daf69e elementor-widget elementor-widget-heading" data-id="6daf69e" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h1 class="elementor-heading-title elementor-size-default">pixel art</h1>		</div>
+			<h1 class="elementor-heading-title elementor-size-default">intro</h1>		</div>
 				</div>
 				<div class="elementor-element elementor-element-15f7f3c elementor-widget elementor-widget-text-editor" data-id="15f7f3c" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.16.0 - 17-10-2023 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>I made it so it is super easy to update and so that it flows perfectly with my tutorials. Lots of love and hundreds of hours went into making it. I hope you love it as much as I do.</p>
-<p>I wish you the best of luck with your business, enjoy the adventure.</p>						</div>
-				</div>
-				<div class="elementor-element elementor-element-3d235a8 elementor-align-right elementor-widget elementor-widget-button" data-id="3d235a8" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-md" href="https://simasalaune.github.io/simmix/about/">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
-				<i aria-hidden="true" class="fas fa-book-open"></i>			</span>
-						<span class="elementor-button-text">Read more...</span>
-		</span>
-					</a>
-		</div>
-				</div>
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Embark on the thrilling story of <span style="color: #80f2b9;"><strong>Necromancer Tomb</strong></span> where your chosen hero begins their dungeon crawler adventures. Unveil the mysteries of the dungeon&#8217;s creation and the heroic journey that awaits.</p>						</div>
 				</div>
 					</div>
 		</div>
@@ -580,13 +592,215 @@ flexibility(document.documentElement);
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-48cd70b elementor-widget elementor-widget-image" data-id="48cd70b" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.16.0 - 17-10-2023 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img fetchpriority="high" decoding="async" width="1024" height="576" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/10/char3_5.png" class="attachment-large size-large wp-image-1964" alt="">															</div>
+															<img fetchpriority="high" decoding="async" width="1024" height="570" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro2-1-1024x570.png" class="attachment-large size-large wp-image-2744" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro2-1-1024x570.png 1024w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro2-1-300x167.png 300w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro2-1-768x427.png 768w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro2-1.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
 				</div>
 					</div>
 		</div>
 							</div>
 		</section>
+		<div class="elementor-element elementor-element-51b2a80 e-flex e-con-boxed e-con e-parent" data-id="51b2a80" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-4695883 e-flex e-con-boxed e-con e-child" data-id="4695883" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2bb1e27 elementor-widget elementor-widget-image" data-id="2bb1e27" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-de80c91 e-flex e-con-boxed e-con e-parent" data-id="de80c91" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2ef4f64 e-con-full e-flex e-con e-child" data-id="2ef4f64" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-c2e3037 e-flex e-con-boxed e-con e-child" data-id="c2e3037" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-92155c7 elementor-widget elementor-widget-heading" data-id="92155c7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">main characters</h1>		</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-a6e5d48 elementor-widget elementor-widget-text-editor" data-id="a6e5d48" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #cc99ff;"><strong>Wizard</strong></span>, <span style="color: #ffff99;"><strong>Knight</strong></span> &amp; <span style="color: #ccffcc;"><strong>Archer</strong></span> &#8211; e<span style="font-size: 16px;">ach hero comes equipped with a unique weapon and special ability, adding a dash of magic, courage, or precision to the dungeon adventures. The choice is yours: Will you wield the wizard&#8217;s arcane powers, charge into battle as the knight, or master archery as the agile archer?</span></p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7c1f151 e-con-full e-flex e-con e-child" data-id="7c1f151" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-7a0e425 e-flex e-con-boxed e-con e-child" data-id="7a0e425" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3ad0614 elementor-widget elementor-widget-image" data-id="3ad0614" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="392" height="126" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char2.png" class="attachment-large size-large wp-image-2737" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char2.png 392w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char2-300x96.png 300w" sizes="(max-width: 392px) 100vw, 392px">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-e37111c e-flex e-con-boxed e-con e-child" data-id="e37111c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-eb90303 elementor-widget elementor-widget-image" data-id="eb90303" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="308" height="154" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char5.png" class="attachment-large size-large wp-image-2752" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char5.png 308w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char5-300x150.png 300w" sizes="(max-width: 308px) 100vw, 308px">															</div>
+				</div>
+					</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-aae41f7 e-flex e-con-boxed e-con e-parent" data-id="aae41f7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-690f53f e-flex e-con-boxed e-con e-child" data-id="690f53f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-9bf82cb elementor-widget elementor-widget-image" data-id="9bf82cb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-4980401 e-flex e-con-boxed e-con e-parent" data-id="4980401" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2d30ea9 e-con-full e-flex e-con e-child" data-id="2d30ea9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-8d48f7e elementor-widget elementor-widget-image" data-id="8d48f7e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="553" height="266" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char3.png" class="attachment-large size-large wp-image-2738" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char3.png 553w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char3-300x144.png 300w" sizes="(max-width: 553px) 100vw, 553px">															</div>
+				</div>
+		<div class="elementor-element elementor-element-be2ba12 e-flex e-con-boxed e-con e-child" data-id="be2ba12" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-6211f54 elementor-widget elementor-widget-image" data-id="6211f54" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="378" height="112" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char1.png" class="attachment-large size-large wp-image-2736" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char1.png 378w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char1-300x89.png 300w" sizes="(max-width: 378px) 100vw, 378px">															</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ed15e51 e-con-full e-flex e-con e-child" data-id="ed15e51" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-3eb83f6 e-flex e-con-boxed e-con e-child" data-id="3eb83f6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2c9bed0 elementor-widget elementor-widget-heading" data-id="2c9bed0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">enemies &amp; loot</h1>		</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-9285709 elementor-widget elementor-widget-text-editor" data-id="9285709" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Beware of the pixelated adversaries that lurk in the shadows! From the gooey <span style="color: #80f2b9;"><strong>slimes</strong></span> to the elusive <strong><span style="color: #80f2b9;">dragonflies</span></strong> and the sinister <strong><span style="color: #80f2b9;">dark mage</span></strong>, face off against a variety of foes as you navigate through the dungeons. Collect loot, potions, and a mysterious relic from the shopkeeper to unlock your hero&#8217;s special ability and face the challenges head-on.</p>						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-17c8fb7 e-flex e-con-boxed e-con e-parent" data-id="17c8fb7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-eb5e279 e-flex e-con-boxed e-con e-child" data-id="eb5e279" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4bf48f6 elementor-widget elementor-widget-image" data-id="4bf48f6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-9e322a1 e-flex e-con-boxed e-con e-parent" data-id="9e322a1" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-57c5973 e-con-full e-flex e-con e-child" data-id="57c5973" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-5eb566b e-flex e-con-boxed e-con e-child" data-id="5eb566b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-8686c6d e-flex e-con-boxed e-con e-child" data-id="8686c6d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5d36dbf elementor-widget elementor-widget-heading" data-id="5d36dbf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">the necromancer</h1>		</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-ef37a46 elementor-widget elementor-widget-text-editor" data-id="ef37a46" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>At the heart of Necromancer Tomb lies the ultimate challenge &#8211; <strong><span style="color: #80f2b9;">The Necromancer</span></strong>. Prepare for an epic showdown with this powerful boss as you strive to conquer the dungeon&#8217;s depths. Defeating <strong><span style="color: #80f2b9;">The Necromancer</span></strong> is the key to claiming victory and becoming the true hero of the dungeon crawler realm.</p>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-44777de e-flex e-con-boxed e-con e-child" data-id="44777de" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-35043f8 elementor-widget elementor-widget-image" data-id="35043f8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="581" height="175" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char4.png" class="attachment-large size-large wp-image-2740" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char4.png 581w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/necro_char4-300x90.png 300w" sizes="(max-width: 581px) 100vw, 581px">															</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-56a331e e-con-full e-flex e-con e-child" data-id="56a331e" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-fea9d06 elementor-widget elementor-widget-image" data-id="fea9d06" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="339" height="505" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/BOSS.png" class="attachment-large size-large wp-image-2739" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/BOSS.png 339w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/BOSS-201x300.png 201w" sizes="(max-width: 339px) 100vw, 339px">															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5802d0f e-flex e-con-boxed e-con e-parent" data-id="5802d0f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-bd85aea e-flex e-con-boxed e-con e-child" data-id="bd85aea" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ea25661 elementor-widget elementor-widget-image" data-id="ea25661" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-360ae8c e-flex e-con-boxed e-con e-parent" data-id="360ae8c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-6b03dbe elementor-widget elementor-widget-heading" data-id="6b03dbe" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">TIPS</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f8d5395 elementor-widget elementor-widget-text-editor" data-id="f8d5395" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul>
+<li>In order to unlock the special ability defeat different types of enemies and acquire their relics</li>
+<li>Purchase <span style="color: #80f2b9;"><strong>&#8220;Shard of Power&#8221;</strong></span> from the Wandering Merchant after obtaining all of the required materials</li>
+<li>Regenerate your HP by standing on a healing zone</li>
+<li>Move swiftly and accordingly to avoid incoming projectiles</li>
+</ul>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a992f6f elementor-widget elementor-widget-text-editor" data-id="a992f6f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>This game was made as a project for a University course in game development. Therefore, the game itself is in its early alpha version with only core mechanics implemented.</p>
+<p><span style="color: #80f2b9;"><strong>Any and all feedback, game-dev tips, bug identification is greatly appreciated!</strong></span></p>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-12ae813 e-flex e-con-boxed e-con e-parent" data-id="12ae813" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-f977a19 elementor-align-center elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="f977a19" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-md" href="https://crystal-peach.itch.io/necromancer-tomb" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-itch-io"></i>			</span>
+						<span class="elementor-button-text">PLAY Now</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-7f71809 e-flex e-con-boxed e-con e-parent" data-id="7f71809" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-7241261 e-flex e-con-boxed e-con e-child" data-id="7241261" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b4f30b7 elementor-widget elementor-widget-image" data-id="b4f30b7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
 							</div>
 		
 	

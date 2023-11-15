@@ -49,10 +49,10 @@
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="alternate" type="application/rss+xml" title="simmix &raquo; Feed" href="https://simasalaune.github.io/simmix/feed/">
 <link rel="alternate" type="application/rss+xml" title="simmix &raquo; Comments Feed" href="https://simasalaune.github.io/simmix/comments/feed/">
-		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.20.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.21.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
 							<script src="//www.googletagmanager.com/gtag/js?id=G-Y252S57WYE" data-cfasync="false" data-wpfc-render="false" async></script>
 			<script data-cfasync="false" data-wpfc-render="false">
-				var mi_version = '8.20.1';
+				var mi_version = '8.21.0';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
 				
@@ -218,6 +218,7 @@
 									'page': 'page_path',
 									'location': 'page_location',
 									'title': 'page_title',
+									'referrer' : 'page_referrer',
 								};
 								for (arg in args) {
 																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
@@ -286,10 +287,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <link rel="stylesheet" id="elementor-post-1659-css" href="https://simasalaune.github.io/simmix/wp-content/uploads/elementor/css/post-1659.css?ver=1697710921" media="all">
 <link rel="stylesheet" id="font-awesome-5-all-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.16.6" media="all">
 <link rel="stylesheet" id="font-awesome-4-shim-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.16.6" media="all">
-<link rel="stylesheet" id="elementor-post-2399-css" href="https://simasalaune.github.io/simmix/wp-content/uploads/elementor/css/post-2399.css?ver=1698069375" media="all">
+<link rel="stylesheet" id="elementor-post-2399-css" href="https://simasalaune.github.io/simmix/wp-content/uploads/elementor/css/post-2399.css?ver=1700062577" media="all">
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CJura%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1" media="all">
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
-<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <!--[if IE]>
 <script src="http://localhost/wordpress/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.3.1" id="astra-flexibility-js"></script>
@@ -297,7 +298,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 flexibility(document.documentElement);
 </script>
 <![endif]-->
-<script src="https://simasalaune.github.io/simmix/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.20.1" id="monsterinsights-frontend-script-js"></script>
+<script src="https://simasalaune.github.io/simmix/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.21.0" id="monsterinsights-frontend-script-js"></script>
 <script data-cfasync="false" data-wpfc-render="false" id="monsterinsights-frontend-script-js-extra">var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/simasalaune.github.io\/simmix","hash_tracking":"false","v4_id":"G-Y252S57WYE"};</script>
 <script src="https://simasalaune.github.io/simmix/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.16.6" id="font-awesome-4-shim-js"></script>
 <link rel="https://api.w.org/" href="https://simasalaune.github.io/simmix/wp-json/">
@@ -524,7 +525,15 @@ flexibility(document.documentElement);
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.16.0 - 17-10-2023 */
 .elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
-<h1 class="elementor-heading-title elementor-size-default">waste warriors academy</h1>		</div>
+<h1 class="elementor-heading-title elementor-size-default">waste warriors</h1>		</div>
+				</div>
+		<div class="elementor-element elementor-element-a72b654 e-flex e-con-boxed e-con e-parent" data-id="a72b654" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2e3dd21 elementor-widget elementor-widget-heading" data-id="2e3dd21" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">academy</h1>		</div>
+				</div>
+					</div>
 				</div>
 				<div class="elementor-element elementor-element-e1efbdd elementor-widget elementor-widget-heading" data-id="e1efbdd" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -534,14 +543,31 @@ flexibility(document.documentElement);
 		</div>
 							</div>
 		</section>
-		<div class="elementor-element elementor-element-0e4b2ee e-flex e-con-boxed e-con e-parent" data-id="0e4b2ee" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-0277f2e e-flex e-con-boxed e-con e-parent" data-id="0277f2e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
 					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-780213d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="780213d" data-element_type="widget" data-widget_type="divider.default">
+		<div class="elementor-element elementor-element-f8d1855 e-flex e-con-boxed e-con e-child" data-id="f8d1855" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-759e251 elementor-widget elementor-widget-image" data-id="759e251" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.16.0 - 17-10-2023 */
-.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5f24a04 e-flex e-con-boxed e-con e-parent" data-id="5f24a04" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-8ed8beb elementor-align-center elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="8ed8beb" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-md" href="https://crystal-peach.itch.io/waste-warriors-academy" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-itch-io"></i>			</span>
+						<span class="elementor-button-text">PLAY Now</span>
+		</span>
+					</a>
 		</div>
 				</div>
 				</div>
@@ -553,26 +579,13 @@ flexibility(document.documentElement);
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-dc388c4 elementor-widget elementor-widget-heading" data-id="dc388c4" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h1 class="elementor-heading-title elementor-size-default">pixel art</h1>		</div>
+			<h1 class="elementor-heading-title elementor-size-default">intro</h1>		</div>
 				</div>
 				<div class="elementor-element elementor-element-0a6afcd elementor-widget elementor-widget-text-editor" data-id="0a6afcd" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.16.0 - 17-10-2023 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>I made it so it is super easy to update and so that it flows perfectly with my tutorials. Lots of love and hundreds of hours went into making it. I hope you love it as much as I do.</p>
-<p>I wish you the best of luck with your business, enjoy the adventure.</p>						</div>
-				</div>
-				<div class="elementor-element elementor-element-e1e7726 elementor-align-right elementor-widget elementor-widget-button" data-id="e1e7726" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a class="elementor-button elementor-button-link elementor-size-md" href="https://simasalaune.github.io/simmix/about/">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
-				<i aria-hidden="true" class="fas fa-book-open"></i>			</span>
-						<span class="elementor-button-text">Read more...</span>
-		</span>
-					</a>
-		</div>
-				</div>
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p class="text-justify"><span style="color: #d1e25a;"><strong>Waste Warriors Academy</strong></span> is an interactive 2D computer game that puts kids on the front lines of a crucial battle: <span style="color: #d1e25a;"><strong>the war on waste!</strong></span> As they journey through three levels, players are immersed in the exciting world of recycling, learning about every step of the process along the way. </p>
+<p class="text-justify">From sorting trash into specific bins (like separating food waste from glass), to using gears to power a shredding machine that turns garbage into small pieces, to discovering the wondrous new products that can be created from recycled materials – <span style="color: #d1e25a;"><strong>this game has it all!</strong></span></p>						</div>
 				</div>
 					</div>
 		</div>
@@ -580,13 +593,252 @@ flexibility(document.documentElement);
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-3aadaf9 elementor-widget elementor-widget-image" data-id="3aadaf9" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.16.0 - 17-10-2023 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img fetchpriority="high" decoding="async" width="1024" height="576" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/10/char3_5.png" class="attachment-large size-large wp-image-1964" alt="">															</div>
+															<img fetchpriority="high" decoding="async" width="1024" height="704" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/cover1-1024x704.png" class="attachment-large size-large wp-image-2781" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/cover1-1024x704.png 1024w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/cover1-300x206.png 300w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/cover1-768x528.png 768w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/cover1-1536x1056.png 1536w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/cover1-2048x1408.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
 				</div>
 					</div>
 		</div>
 							</div>
 		</section>
+		<div class="elementor-element elementor-element-0e4aa4c e-flex e-con-boxed e-con e-parent" data-id="0e4aa4c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-0c06a95 elementor-widget elementor-widget-text-editor" data-id="0c06a95" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Developed as part of a <span style="color: #d1e25a;"><strong>university class project</strong></span> with a focus on recycling, Waste Warriors Academy combines educational gameplay with captivating storytelling to empower kids to become champions of the environment.</p>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-0853189 e-flex e-con-boxed e-con e-parent" data-id="0853189" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-f70b1d9 e-flex e-con-boxed e-con e-child" data-id="f70b1d9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c521ba7 elementor-widget elementor-widget-image" data-id="c521ba7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-0f1cfdb e-flex e-con-boxed e-con e-parent" data-id="0f1cfdb" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-99ea211 e-con-full e-flex e-con e-child" data-id="99ea211" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-6c9b1c2 e-flex e-con-boxed e-con e-child" data-id="6c9b1c2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-20cff6e elementor-widget elementor-widget-heading" data-id="20cff6e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">level 1</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b57f76d elementor-widget elementor-widget-text-editor" data-id="b57f76d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #d1e25a;"><strong>Recycling Challenge:</strong></span> Dive into a trash-tastic adventure as you master the art of sorting and recycling falling items into the right bins.</p>						</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-c295fdd elementor-widget elementor-widget-image" data-id="c295fdd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="739" height="405" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-1-1.png" class="attachment-large size-large wp-image-2783" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-1-1.png 739w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-1-1-300x164.png 300w" sizes="(max-width: 739px) 100vw, 739px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c09860a e-con-full e-flex e-con e-child" data-id="c09860a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-11a2407 e-flex e-con-boxed e-con e-child" data-id="11a2407" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-46b2b10 elementor-widget elementor-widget-heading" data-id="46b2b10" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">level 2</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1fa7049 elementor-widget elementor-widget-text-editor" data-id="1fa7049" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #d1e25a;"><strong>Gear Gizmo:</strong></span> Unleash your inner engineer by strategically placing gears to power the shredding machine and witness the magic of waste transformation.</p>						</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-c87a746 elementor-widget elementor-widget-image" data-id="c87a746" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="737" height="412" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-2.png" class="attachment-large size-large wp-image-2784" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-2.png 737w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-2-300x168.png 300w" sizes="(max-width: 737px) 100vw, 737px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-536aa01 e-con-full e-flex e-con e-child" data-id="536aa01" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-75c5e2b e-flex e-con-boxed e-con e-child" data-id="75c5e2b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4084860 elementor-widget elementor-widget-heading" data-id="4084860" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">level 3</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b1b4d50 elementor-widget elementor-widget-text-editor" data-id="b1b4d50" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #d1e25a;"><strong>Creative Factory:</strong></span> Embark on an artistic adventure in the Creative Factory, using arrow keys to craft unique products from recycled materials and discover the beauty of upcycling.</p>						</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-140555e elementor-widget elementor-widget-image" data-id="140555e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1024" height="580" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-3-1024x580.png" class="attachment-large size-large wp-image-2785" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-3-1024x580.png 1024w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-3-300x170.png 300w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-3-768x435.png 768w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/image-3.png 1158w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-09e9485 e-flex e-con-boxed e-con e-parent" data-id="09e9485" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-9031349 e-flex e-con-boxed e-con e-child" data-id="9031349" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-45ff0db elementor-widget elementor-widget-image" data-id="45ff0db" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-3b37fac e-flex e-con-boxed e-con e-child" data-id="3b37fac" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5a1d39b elementor-widget elementor-widget-heading" data-id="5a1d39b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">characters</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-0ebbeeb elementor-widget elementor-widget-text-editor" data-id="0ebbeeb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>In the vibrant world of <span style="color: #d1e25a;"><strong>Waste Warriors Academy</strong></span>, three dynamic characters bring the game to life. Together, this diverse trio adds depth and excitement to the gaming experience, embodying the values of sustainability and environmental consciousness.</p>						</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-4c3dee9 e-flex e-con-boxed e-con e-parent" data-id="4c3dee9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-41d95b7 e-con-full e-flex e-con e-child" data-id="41d95b7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-ecae7fc elementor-widget elementor-widget-image" data-id="ecae7fc" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="570" height="1024" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character1-570x1024.png" class="attachment-large size-large wp-image-2787" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character1-570x1024.png 570w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character1-167x300.png 167w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character1.png 606w" sizes="(max-width: 570px) 100vw, 570px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b2d9363 e-con-full e-flex e-con e-child" data-id="b2d9363" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-7655725 elementor-widget elementor-widget-image" data-id="7655725" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="664" height="884" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character2.png" class="attachment-large size-large wp-image-2788" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character2.png 664w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character2-225x300.png 225w" sizes="(max-width: 664px) 100vw, 664px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-333ed5e e-con-full e-flex e-con e-child" data-id="333ed5e" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-edad395 elementor-widget elementor-widget-image" data-id="edad395" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="702" height="914" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character3.png" class="attachment-large size-large wp-image-2789" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character3.png 702w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character3-230x300.png 230w" sizes="(max-width: 702px) 100vw, 702px">															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-909d446 e-flex e-con-boxed e-con e-parent" data-id="909d446" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-d245ca4 e-flex e-con-boxed e-con e-child" data-id="d245ca4" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-f716516 elementor-widget elementor-widget-image" data-id="f716516" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-13f8140 e-flex e-con-boxed e-con e-parent" data-id="13f8140" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-254d0eb e-con-full e-flex e-con e-child" data-id="254d0eb" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-2376c73 elementor-widget elementor-widget-image" data-id="2376c73" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1024" height="576" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character_selection_bg-1024x576.png" class="attachment-large size-large wp-image-2786" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character_selection_bg-1024x576.png 1024w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character_selection_bg-300x169.png 300w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character_selection_bg-768x432.png 768w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character_selection_bg-1536x864.png 1536w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/character_selection_bg-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-04a89a6 e-con-full e-flex e-con e-child" data-id="04a89a6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-9e671c6 elementor-widget elementor-widget-heading" data-id="9e671c6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">customization room</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-463c20c elementor-widget elementor-widget-text-editor" data-id="463c20c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The customization room in <span style="color: #d1e25a;"><strong>Waste Warriors Academy</strong></span> is a virtual haven where players unleash their creativity and fashion sense. Enter a <span style="color: #d1e25a;"><strong>Style Extravaganza</strong></span>, where characters can be transformed into eco-icons. From altering facial expressions to choosing skin tones and striking unique poses, players are empowered to personalize their <strong><span style="color: #d1e25a;">Waste Warrior avatars</span></strong>. This room is not just about eco-style; it&#8217;s a space for self-expression, encouraging players to embrace their unique identities and eco-warrior personas.</p>						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-bb39c13 e-flex e-con-boxed e-con e-parent" data-id="bb39c13" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-c694603 e-flex e-con-boxed e-con e-child" data-id="c694603" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d184b95 elementor-widget elementor-widget-image" data-id="d184b95" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-2883b10 e-flex e-con-boxed e-con e-parent" data-id="2883b10" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-8f7b7dd e-con-full e-flex e-con e-child" data-id="8f7b7dd" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-e26cfcc elementor-widget elementor-widget-heading" data-id="e26cfcc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">education</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c41fa64 elementor-widget elementor-widget-text-editor" data-id="c41fa64" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #d1e25a;"><strong>Waste Warriors Academy</strong></span> goes beyond gaming; it&#8217;s an educational powerhouse. The game seamlessly integrates environmental lessons into its engaging gameplay. This intentional fusion of entertainment and education fosters environmental awareness and inspires behavioral change. <strong><span style="color: #d1e25a;">Waste Warriors Academy</span></strong> is a virtual classroom, where lessons on sustainability and recycling come to life, empowering the next generation of eco-conscious individuals.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b282a62 e-con-full e-flex e-con e-child" data-id="b282a62" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-52362d7 elementor-widget elementor-widget-image" data-id="52362d7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1024" height="576" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/wwa1-1024x576.png" class="attachment-large size-large wp-image-2790" alt="" srcset="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/wwa1-1024x576.png 1024w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/wwa1-300x169.png 300w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/wwa1-768x432.png 768w, https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/wwa1.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-db17f16 e-flex e-con-boxed e-con e-parent" data-id="db17f16" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-e808151 e-flex e-con-boxed e-con e-child" data-id="e808151" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d446e7c elementor-widget elementor-widget-image" data-id="d446e7c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-831f556 e-flex e-con-boxed e-con e-parent" data-id="831f556" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-037e32a elementor-widget elementor-widget-video" data-id="037e32a" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/fZ6U4sZQ4m0&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 17-10-2023 */
+.elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;right:0;bottom:0;left:0;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%;aspect-ratio:var(--video-aspect-ratio);-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-custom-embed-image-overlay{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-custom-embed-image-overlay img{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-1cbd188 e-flex e-con-boxed e-con e-parent" data-id="1cbd188" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c4dba4e elementor-align-center elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="c4dba4e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-md" href="https://crystal-peach.itch.io/waste-warriors-academy" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-itch-io"></i>			</span>
+						<span class="elementor-button-text">PLAY Now</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-cda7ee5 e-flex e-con-boxed e-con e-parent" data-id="cda7ee5" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-5ae0614 e-flex e-con-boxed e-con e-child" data-id="5ae0614" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-f619e8c elementor-widget elementor-widget-image" data-id="f619e8c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="523" height="40" src="https://simasalaune.github.io/simmix/wp-content/uploads/2023/11/line.png" class="attachment-large size-large wp-image-2543" alt="">															</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
 							</div>
 		
 	
